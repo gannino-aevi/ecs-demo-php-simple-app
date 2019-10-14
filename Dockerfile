@@ -1,5 +1,5 @@
 #FROM amazonlinux:2
-FROM 137112412989.dkr.ecr.eu-west-1.amazonaws.com/amazonlinux:latest
+FROM 742644190944.dkr.ecr.eu-west-1.amazonaws.com/amz-linux
 
 # Install dependencies
 RUN yum install -y \
