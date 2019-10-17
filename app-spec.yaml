@@ -1,0 +1,8 @@
+Resources:
+  - TargetService:
+      Type: AWS::ECS::Service
+      Properties:
+        TaskDefinition: "arn:aws:ecs:eu-west-1:742644190944:task-definition/simple-aevi-pgw-eu-ecs-dyn-qa"
+        LoadBalancerInfo: 
+          ContainerName: "simple-aevi-pgw-eu-ecs-dyn-qa" 
+          ContainerPort: 80
